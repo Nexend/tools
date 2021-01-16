@@ -1,0 +1,17 @@
+{
+  "name": "task1-webpack-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:script": "webpack --mode=production",
+    "watch:script": "webpack --mode=development --devtool eval-source-map -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
+  }
+}
